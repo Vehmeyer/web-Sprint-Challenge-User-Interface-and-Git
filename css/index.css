@@ -71,6 +71,8 @@ p {
     margin: 0 auto;
 }
 
+
+
 .background-image-home {
     background-image: url("/img/jumbo.jpg");
     height: 15vh;
@@ -119,6 +121,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:first-child {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:last-child {
+    background: dodgerblue;
 }
 
 .bottom-content {
