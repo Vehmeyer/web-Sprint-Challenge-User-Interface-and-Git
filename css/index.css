@@ -247,14 +247,42 @@ footer nav a {
     text-decoration: none;
 }
 
-/* Styling for about.html */
+/* Styling for ABOUT.HTML */
+/* Header Nav Styling - about.html */
+.header-nav-about {
+    padding: 0 10%
+}
 
 .background-image-about {
     background-image: url("/img/jumbo-about.png");
     height: 15vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cov800pxer;
     background-position: center;
     margin-top: 8%;
     margin-bottom: 3%;
+}
+
+/* First About Section Styling - about.html */
+
+.about-text-first-section {
+    border-bottom: 1px dashed black;
+}
+
+/* Middle About Flex Section Styling - about.html */
+
+.middle-container-flex a {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1% 1.5%;
+}
+
+.middle-container-flex div {
+    border-bottom: 1px dashed black;
+    padding: 2.5% 0%;
+    margin-top: 2%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: ;
 }
