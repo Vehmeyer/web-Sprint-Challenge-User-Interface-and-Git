@@ -277,7 +277,7 @@ footer nav a {
     padding: 1% 1.5%;
 }
 
-.middle-container-flex div {
+/* .middle-container-flex div {
     border-bottom: 1px dashed black;
     padding: 2.5% 0%;
     margin-top: 2%;
@@ -285,4 +285,28 @@ footer nav a {
     display: flex;
     flex-direction: column;
     flex-flow: ;
+} */
+
+.middle-container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.middle-container-flex div {
+    border-bottom: 1px dashed black;
+    padding: 2.5%;
+    /* margin-top: 2%; */
+    margin: 0 2.5%; 
+    width: 45%;
+    justify-content: flex-start;
+}    
+
+.middle-container-flex img {
+    margin: auto;
+    width: 90%;
+}
+/*     
+    flex-direction: column;
+    flex-flow: ; */
 }
