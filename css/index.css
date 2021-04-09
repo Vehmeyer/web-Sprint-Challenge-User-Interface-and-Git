@@ -71,6 +71,15 @@ p {
     margin: 0 auto;
 }
 
+.background-image-home {
+    background-image: url("/img/jumbo.jpg");
+    height: 15vh;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 3% 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
