@@ -34,21 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML gives meaning to HTML tags. Semantic tags are able to provide information about the tag's contents. This helps describe our code. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: inline does not break to a new line. display: block; will break to a new line. 
+
+display: block; accepts width and had top and bottom margin. display: inline; does not. It only takes up as much width as necessary. 
 
 3. What are the 4 areas of the box model?
 
+content, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+the cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to teams of developers since it helps track changes to code. This historical tracking allows for easy collaboration since developers can collaborate and work their own version of the code, push changes to the central repository, and access new changes other developers have made. It is easy to revert changes and go back to clean versions of the codebase in the event that bugs are introduced. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
