@@ -250,7 +250,8 @@ footer nav a {
 /* Styling for ABOUT.HTML */
 /* Header Nav Styling - about.html */
 .header-nav-about {
-    padding: 0 10%
+    padding: 0 7.5%;
+    justify-content: center;
 }
 
 .background-image-about {
@@ -267,7 +268,14 @@ footer nav a {
 
 .about-text-first-section {
     border-bottom: 1px dashed black;
+    width: 100%;
+    text-align: justify;
 }
+
+/* .about-text-first-section h2, p {
+    padding-left: 4.75%;
+    padding-right: 4.75%;
+} */
 
 /* Middle About Flex Section Styling - about.html */
 
