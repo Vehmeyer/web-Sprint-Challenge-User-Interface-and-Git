@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* General Stylings */
+
 * {
     box-sizing: border-box;
 }
@@ -71,16 +73,58 @@ p {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
 
+/* Header Nav Stylings */
+
+header nav {
+    position:fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 15vh;
+    z-index: 999999;
+}
+
+.logo-homepage {
+    background-image: url('/img/lambda-black.png');
+    width: 20%;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left;
+    margin: auto%;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+}
+
+.links-homepage {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: space-around; */
+    margin: 64.3 auto;
+}
+
+
+/* Background Image Styling - Homepage */
 
 .background-image-home {
     background-image: url("/img/jumbo.jpg");
     height: 15vh;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
-    margin: 3% 0;
+    background-position: center;
+    margin-top: 15%;
+    margin-bottom: 3%;
 }
+
+/* Top Content Section Styling */
 
 .top-content {
     display: flex;
@@ -96,6 +140,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* Middle Content Section Styling */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -163,6 +208,8 @@ p {
     background: dodgerblue;
 }
 
+/* Bottom Content Section Styling */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -176,6 +223,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer Styling */
 
 footer {
     width: 100%;
