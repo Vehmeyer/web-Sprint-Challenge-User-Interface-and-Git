@@ -75,6 +75,7 @@ p {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* Header Nav Stylings */
@@ -92,25 +93,25 @@ header nav {
 
 .logo-homepage {
     background-image: url('/img/lambda-black.png');
-    width: 20%;
-    height: 20vh;
+    width: 13%;
+    height: 16vh;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 80%;
     background-position: left;
-    margin: auto%;
+    margin: 64.3 auto;
     display: flex;
     justify-content: flex-start;
-    /* align-items: flex-start; */
+    
 }
 
 .links-homepage {
-    width: 40%;
+    width: 50%;
     display: flex;
-    justify-content: space-evenly;
-    /* align-items: space-around; */
-    margin: 64.3 auto;
+    justify-content: space-around;
+    margin: 6.4% 0%;
+    padding-top: 1.5%;
+    padding-right: 10%;
 }
-
 
 /* Background Image Styling - Homepage */
 
@@ -244,3 +245,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Styling for about.html */
+
