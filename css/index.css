@@ -87,8 +87,9 @@ header nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 15vh;
+    height: 12vh;
     z-index: 999999;
+    background-color:rgba(255, 255, 255, 0.8);
 }
 
 .logo-homepage {
@@ -248,3 +249,12 @@ footer nav a {
 
 /* Styling for about.html */
 
+.background-image-about {
+    background-image: url("/img/jumbo-about.png");
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
